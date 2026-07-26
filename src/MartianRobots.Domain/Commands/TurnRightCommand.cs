@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace MartianRobots.Domain.Commands;
 
-namespace MartianRobots.Domain.Commands
+/// <summary>Turns the robot 90° to the right. Position is unchanged.</summary>
+public sealed class TurnRightCommand : IRobotCommand
 {
-    internal class TurnRightCommand
-    {
-    }
+    public RobotState Execute(RobotState state, IMarsWorld world)
+        => state with { Orientation = state.Orientation.TurnRight() };
 }
