@@ -19,12 +19,6 @@ public class SimulationRunnerIntegrationTests
 
         var output = SimulationRunner.CreateDefault().Run(input);
 
-        Assert.Equal(
-            """
-            1 1 E
-            3 3 N LOST
-            2 3 S
-            """,
-            output);
+        Assert.Equal("1 1 E\n3 3 N LOST\n2 3 S", output);
     }
 }
