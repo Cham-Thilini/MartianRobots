@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Common settings come from Directory.Build.props -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MartianRobots.Domain\MartianRobots.Domain.csproj" />
+  </ItemGroup>
+</Project>
