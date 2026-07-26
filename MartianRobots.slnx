@@ -1,1 +1,10 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MartianRobots.Application/MartianRobots.Application.csproj" />
+    <Project Path="src/MartianRobots.Console/MartianRobots.Console.csproj" Id="87efea97-8472-4abd-9c6f-4dbd329124cf" />
+    <Project Path="src/MartianRobots.Domain/MartianRobots.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MartianRobots.Tests/MartianRobots.Tests.csproj" />
+  </Folder>
+</Solution>
